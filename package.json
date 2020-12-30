@@ -1,0 +1,38 @@
+{
+  "name": "rollup-bundle-react-table-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "umd": "dist/index.min.js",
+  "source": "src/index.js",
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "NODE_ENV=production rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomolenet/rollup-bundle-react-table-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomolenet/rollup-bundle-react-table-example/issues"
+  },
+  "homepage": "https://github.com/tomolenet/rollup-bundle-react-table-example#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-table": "^7.6.2",
+    "rollup": "^2.35.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-visualizer": "^4.2.0"
+  }
+}
